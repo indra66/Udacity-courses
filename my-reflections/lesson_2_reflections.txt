@@ -1,0 +1,21 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+New folder .git is created. Git is going to use this folder for it's configuration and tracking.
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is private to the developer. Others cannot access these files. Developer can decide whether to commit them or not.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+By comparing staged files to current commit files.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are very we are doing some experiments in our project, like a proof-of-concept for implementing a new feature. Branches provide you confidence that you're not disturbing the main source code of the project and continue the regular development asusual.
+
+5. How do the diagrams help you visualize the branch structure?
+One picture is worth thousand words.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All the changes done in both the branches are brought together. Cause the latest 'master' commit has two parents.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging - pros: It saves lot time for the developer. Also identifies the conflicts and reports, if any conflicts exists.
+cons? Not sure. May be developer is not in full controll of the process?
